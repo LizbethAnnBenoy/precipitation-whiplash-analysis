@@ -10,3 +10,24 @@ It combines data warehousing, pattern mining and ML to get patterns and predict 
 - Build machine learning models for prediction
 - Visualize trends and seasonal behavior
 - Develop an interactive user interface
+
+## Dataset
+The dataset includes:
+- Precipitation (mm/day)
+- IVT (Atmospheric River indicator)
+- Drought severity score
+- Soil moisture (dry land memory)
+- Binary indicators:
+- Atmospheric River (is_ar)
+- Extreme precipitation (extreme_precip)
+- Whiplash event (is_whiplash)
+
+## Methods Used
+- Data Preprocessing: Handling missing values, feature engineering
+- Pattern Mining: Apriori algorithm for association rules
+- Clustering: K-Means for event categorization
+- Machine Learning:
+- Random Forest
+- Gradient Boosting
+- Visualization: Time series, heatmaps, distributions
+- Dashboard: Gradio-based interactive UI
